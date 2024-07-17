@@ -22,7 +22,7 @@ int main() {
 
 	theta = 0.0f;
 	omega = 0.0f;
-	dT = PI / 500;
+	dT = PI / 50;
 
 
 
@@ -64,14 +64,6 @@ int main() {
 		while (window.pollEvent(event)) {
 			if (event.type == sf::Event::Closed) {
 				window.close();
-			}
-
-			if (event.type == sf::Event::KeyPressed) {
-				if (event.key.code == sf::Keyboard::A) dT += PI / 10000.0f;
-			}
-			if (event.type == sf::Event::KeyPressed) {
-				if (event.key.code == sf::Keyboard::F) dT -= PI / 10000.0f;
-				if (dT < 0.) dT = 0.0f;
 			}
 			
 		}
