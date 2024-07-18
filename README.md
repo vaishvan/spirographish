@@ -31,3 +31,7 @@ NB: e and k have been included just for future reference to the code. they are n
 https://www.mathematische-basteleien.de/spirographs.htm#:~:text=The%20general%20parametric%20representation%20is,point%20P%20of%20its%20center.&text=There%20are%20r%3D3%20and,a%3D5%20(red).<br>
 
 https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=1328&context=hmnj<br>
+
+/-----------------INPUT EXAMPLES -------------------------/ <br>
+79. 190. 200. 960 540 100 255 0 m 1 10 <br>
+79. 190. 200. 960 540 100 0 0 m 1 10 <br>
